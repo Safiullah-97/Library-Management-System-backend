@@ -9,7 +9,7 @@ var cors = require('cors')
 app.use(express.json())
 
 var corsOptions = {
-  origin:'https://library-management-system-mern-stack.vercel.app/api/v1/books',
+  origin:'https://lmsfront.netlify.app/api/v1/books',
   // origin:'http://localhost:3000/api/v1/books',
   optionsSuccessStatus: 200 
 }

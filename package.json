@@ -2,7 +2,7 @@
   "name": "libarary-management-system",
   "version": "1.0.0",
   "description": "",
-  "proxy": "http://localhost:3000/",
+  "proxy": "https://lmsfront.netlify.app/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
