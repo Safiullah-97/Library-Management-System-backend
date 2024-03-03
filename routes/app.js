@@ -6,8 +6,6 @@ const upload = require("../middleware.js/multer.middleware");
 const Img = require("../models/Image.model");
 // const Upload_on_Cloudinary = require("../cloudinary/Cloudinary");
 // const GettingBook= require('./book')
-const serverless= require('serverless-http')
-
 const Get_books= require('../controller/getBooks.controller')
 const Add_Book= require ('../controller/addBooks.controller')
 const UserDetails= require('../models/User.models')
@@ -21,4 +19,3 @@ router.get('/:id', GetoneBook)
 
 
 module.exports = router;
-module.exports.handler= serverless(app);
