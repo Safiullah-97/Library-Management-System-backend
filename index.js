@@ -9,7 +9,7 @@ const app = express();
 
 // Enable CORS for specific origin
 const corsOptions = {
-  origin: 'https://lmsfront.netlify.app', // Adjust the origin to match your frontend URL
+  origin: 'https://main--lmswithreact.netlify.app/', // Adjust the origin to match your frontend URL
   optionsSuccessStatus: 200
 };
 

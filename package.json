@@ -2,7 +2,7 @@
   "name": "libarary-management-system",
   "version": "1.0.0",
   "description": "",
-  "proxy": "https://lmsfront.netlify.app/",
+  "proxy": "https://main--lmswithreact.netlify.app/",
   "main": "index.js",
   "engines": {
     "node": "18.x"
